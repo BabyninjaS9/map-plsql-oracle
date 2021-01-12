@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle map-plsql-oracle",
+        "command": "map-plsql-oracle:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "map-plsql-oracle",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "map-plsql-oracle:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+#map-plsql-oracle-root {
+  border-left: solid 1px;
+  padding-left: 10px;
+}
+
+#map-plsql-oracle-root .staticbar > table:nth-child(1) span::before {
+  font-size: 1em;
+  margin: 0;
+}
+
+#map-plsql-oracle-root .staticbar > table:nth-child(2) span::before {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#map-plsql-oracle-root span.icon:hover {
+  color: @background-color-selected;
+}
+
+#map-plsql-oracle-root input,
+#map-plsql-oracle-root select {
+  background-color: inherit;
+  border:solid 1px;
+}
+
+#map-plsql-oracle-root option {
+  background-color: @base-background-color;
+  color:@text-color;
+}
+
+#map-plsql-oracle-root .staticbar table {
+  width:100%;
+}
+
+#map-plsql-oracle-root .staticbar table td {
+  padding:10px;
+}
+
+#map-plsql-oracle-root .staticbar > table:nth-child(1) {
+  font-size: 2em;
+}
+
+
+#map-plsql-oracle-root .staticbar > table:nth-child(1) td:nth-child(1),
+#map-plsql-oracle-root .staticbar > table:nth-child(1) td:nth-child(2) {
+  text-align: left;
+}
+
+#map-plsql-oracle-root .staticbar > table:nth-child(1) td:nth-child(3) {
+  text-align: center;
+}
+
+#map-plsql-oracle-root .staticbar > table:nth-child(1) td:nth-child(4),
+#map-plsql-oracle-root .staticbar > table:nth-child(1) td:nth-child(5) {
+  text-align: right;
+}
+
+#map-plsql-oracle-root .staticbar > table:nth-child(2) {
+  font-size: 1em;
+}
+
+#map-plsql-oracle-root .staticbar input.modified {
+  border-color: @background-color-selected;
+}
+
+#map-plsql-oracle-root > .staticbar {
+  background-color: @base-background-color;
+  border-bottom: solid 1px;
+  position: fixed;
+}
+
+#map-plsql-oracle-root .results > .staticbar.spacer {
+  visibility: hidden;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table {
+  padding: 10px;
+  width: 100%;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table tr:hover {
+  background-color: @background-color-selected;
+  color: @text-color-selected;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td {
+  padding: 5px;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td:nth-child(1) {
+  text-align: left;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td:nth-child(2) {
+  text-align: center;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td:nth-child(3) {
+  text-align: right;
+}
+
+#map-plsql-oracle-root .results {
+  height: 100%;
+  overflow: scroll;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td.function:nth-child(1) {
+  color: #99ff99;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td.procedure:nth-child(1) {
+  color: #9999ff;
+}
+
+#map-plsql-oracle-root .results table#map-plsql-oracle-results-table td.main:nth-child(2) {
+  color: #d00000;
+}
