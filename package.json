@@ -1,7 +1,7 @@
 {
   "name": "map-plsql-oracle",
   "main": "./lib/map-plsql-oracle",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Display a map (list of functions and procedures) in PL/SQL sources",
   "keywords": [
     "pl/sql",
